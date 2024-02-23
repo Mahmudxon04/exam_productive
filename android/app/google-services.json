@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "218810471054",
+    "project_id": "examproductive",
+    "storage_bucket": "examproductive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218810471054:android:a556350583cff10c462fdf",
+        "android_client_info": {
+          "package_name": "com.example.exam_productive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgMYjiVx--V9WqwcBJpYFamOBYuxZdABI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
