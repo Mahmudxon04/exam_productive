@@ -1,16 +1,13 @@
-const _authen = 'assets/icons/global/';
+const authen = 'assets/svg/';
 
 sealed class AppIcons {
-  static const tasks = '${_authen}tasks.svg';
-  static const expense = '${_authen}expense.svg';
-  static const create = '${_authen}create.svg';
-  static const calendar = '${_authen}calendar.svg';
-  static const stats = '${_authen}stats.svg';
-  static const logo = '${_authen}logo.svg';
-  static const apple = '${_authen}apple.svg';
-  static const eyeOff = '${_authen}eye_off.svg';
-  static const eyeOn = '${_authen}eye_on.svg';
-  static const facebook = '${_authen}facebook.svg';
-  static const google = '${_authen}google.svg';
+  static const tasks = '${authen}tasks.svg';
+  static const expense = '${authen}expense.svg';
+  static const logo = '${authen}logo.svg';
+  static const apple = '${authen}apple.svg';
+  static const eyeOff = '${authen}eye_off.svg';
+  static const eyeOn = '${authen}eye_on.svg';
+  static const facebook = '${authen}facebook.svg';
+  static const google = '${authen}google.svg';
 
 }

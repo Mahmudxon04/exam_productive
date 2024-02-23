@@ -17,7 +17,7 @@ class _AuthenticationRemoteDataSourceImpl
   Future<User> getUser() async {
     try {
       if (FirebaseAuth.instance.currentUser == null) {
-        throw ServerExcaption(message: "User is null", code: 140);
+        throw ServerExcaption(message: "Foydalanuvchi yoq", code: 140);
       }
       return FirebaseAuth.instance.currentUser!;
     } on ServerExcaption {
@@ -25,7 +25,7 @@ class _AuthenticationRemoteDataSourceImpl
     } catch (error) {
       throw ServerExcaption(
         message: "$error",
-        code: 500,
+        code: 400,
       );
     }
   }
@@ -48,7 +48,7 @@ class _AuthenticationRemoteDataSourceImpl
     try {
       await FirebaseAuth.instance.signOut();
     } catch (e) {
-      ServerExcaption(message: "Cannot logout the user", code: 500);
+      ServerExcaption(message: "chiqib bo'lmaydi", code: 400);
     }
   }
 

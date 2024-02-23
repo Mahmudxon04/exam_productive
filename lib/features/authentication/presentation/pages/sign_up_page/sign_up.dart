@@ -238,7 +238,7 @@ class _SignUpState extends State<SignUp> {
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
                           content: Text(
-                            "Bunday user mavjud emas!",
+                            "Bunday foydalanuvchi mavjud emas!",
                             style: TextStyle(color: Colors.black),
                           ),
                         ),
